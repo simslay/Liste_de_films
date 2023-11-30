@@ -62,11 +62,11 @@ public class FilmDescriptionFragment extends Fragment {
             return R.string.Beetlejuice;
         } else if (filmName.equals("Chat Noir Chat Blanc")) {
             return R.string.Chat_Noir_Chat_Blanc;
-        } else if (filmName.equals("Ghost In The Shell")) {
+        } else if (filmName.equals("Ghost in the Shell")) {
             return R.string.Ghost_in_the_Shell;
         } else if (filmName.equals("Great Teacher Onizuka")) {
             return R.string.Great_Teacher_Onizuka;
-        } else if (filmName.equals("La Cité De La Peur")) {
+        } else if (filmName.equals("La Cité de la Peur")) {
             return R.string.La_Cité_de_la_peur;
         } else if (filmName.equals("La Montagne Sacrée")) {
             return R.string.La_Montagne_sacrée;
