@@ -58,22 +58,23 @@ public class FilmDescriptionFragment extends Fragment {
     }
 
     private int getStringId(String filmName) {
-        if (filmName.equals("BeetleJuice")) {
-            return R.string.Beetlejuice;
-        } else if (filmName.equals("Chat Noir Chat Blanc")) {
-            return R.string.Chat_Noir_Chat_Blanc;
-        } else if (filmName.equals("Ghost in the Shell")) {
-            return R.string.Ghost_in_the_Shell;
-        } else if (filmName.equals("Great Teacher Onizuka")) {
-            return R.string.Great_Teacher_Onizuka;
-        } else if (filmName.equals("La Cité de la Peur")) {
-            return R.string.La_Cité_de_la_peur;
-        } else if (filmName.equals("La Montagne Sacrée")) {
-            return R.string.La_Montagne_sacrée;
-        } else if (filmName.equals("Las Vegas Parano")) {
-            return R.string.Las_Vegas_Parano;
-        } else {
-            return R.string.Beetlejuice;
+        switch (filmName) {
+            case "BeetleJuice":
+                return R.string.Beetlejuice;
+            case "Chat Noir Chat Blanc":
+                return R.string.Chat_Noir_Chat_Blanc;
+            case "Ghost in the Shell":
+                return R.string.Ghost_in_the_Shell;
+            case "Great Teacher Onizuka":
+                return R.string.Great_Teacher_Onizuka;
+            case "La Cité de la Peur":
+                return R.string.La_Cité_de_la_peur;
+            case "La Montagne Sacrée":
+                return R.string.La_Montagne_sacrée;
+            case "Las Vegas Parano":
+                return R.string.Las_Vegas_Parano;
+            default:
+                return R.string.Beetlejuice;
         }
     }
 }

@@ -28,12 +28,6 @@ public class FilmFragment extends Fragment {
     private String[] films;
     private CallBackInterface callBackInterface;
 
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
